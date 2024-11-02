@@ -23,3 +23,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.bg-layer{
+  background-image: url(/bg_layer.png);
+}
