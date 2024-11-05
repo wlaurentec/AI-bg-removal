@@ -1,5 +1,6 @@
 import jwt from "jsonwebtoken";
 
+// Middleware Function to decode jwt token to get clerkId
 const authUser = (req, res, next) => {
   try {
     const { token } = req.headers;
